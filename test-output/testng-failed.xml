@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browserType" value="chrome"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Getrequest">
+        <methods>
+          <include name="getData"/>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- Getrequest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
